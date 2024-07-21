@@ -1,0 +1,1096 @@
+ @keyframes fadeandshow {
+    from {
+        opacity: 0;
+        transform: translateY(20px)
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0)
+    }
+}
+
+.site-main {
+    max-width: 1300px;
+    margin: auto;
+    width: 100%
+}
+
+article {
+    word-wrap: break-word;
+    column-count: 2;
+    column-gap: 20px
+}
+
+article .wp-block-group:not(.tocc) {
+    break-inside: avoid;
+    margin: 0;
+    padding: 0
+}
+
+.sub-block-group {
+    border-radius: 15px;
+    background-color: var(--xosupbg);
+    box-shadow: 0px 0px 6px 2px rgb(0 0 0 / 69%);
+    border: solid 1px rgb(235 143 123 / 94%);
+    padding: 7px 4px 3px
+}
+
+article .wp-block-group:nth-of-type(1),article .wp-block-group:nth-of-type(2),article .wp-block-group:nth-of-type(3) {
+    border-top: 0;
+    padding-bottom: 0
+}
+
+article .videoh2cont .sub-block-group {
+    background: none;
+    border: 0;
+    box-shadow: none
+}
+
+.wp-block-group:nth-of-type(2):after {
+    content: "";
+    clear: both;
+    display: block
+}
+
+button,.nav-links a {
+    background-color: var(--xosupbg);
+    border: solid 2px var(--ast-global-color-8);
+    color: #fff;
+    border-radius: 10px;
+    padding: 7px 12px;
+    margin: 5px auto;
+    cursor: pointer;
+    font-size: 15px;
+    transition: 0.3s ease-in-out;
+    font-weight: 500
+}
+
+article button a,.nav-links a {
+    font-size: 14px;
+    display: block;
+    text-decoration: none
+}
+
+button:hover,.nav-links a:hover {
+    background-color: var(--ast-global-color-8);
+    color: #000 !important
+}
+
+.nav-links {
+    max-width: 50%;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center
+}
+
+.wp-block-spacer {
+    height: 10px !important;
+    clear: none
+}
+
+article hr,.wp-block-uagb-content-timeline,.uagb-tabs__panel {
+    display: none
+}
+
+.button-container {
+    transition: opacity 0.5s ease-in-out
+}
+
+.animestaff .loader {
+    width: 40px;
+    height: 40px
+}
+
+.ar-synopsish2,.videoh2 {
+    max-height: 0;
+    clear: none;
+    visibility: hidden;
+    pointer-events: none;
+    user-select: none;
+    margin: 0;
+    padding: 0
+}
+
+article h2 {
+    color: var(--ast-global-color-8);
+    font-size: 18px;
+    font-weight: 600;
+    background-color: var(--xosupbg);
+    box-shadow: 0px -4px 6px 0px rgb(0 0 0 / 59%);
+    border: solid rgb(235 143 123 / 94%);
+    width: max-content;
+    margin: 10px auto 0px;
+    padding: 5px 40px;
+    border-radius: 10px 10px 0 0;
+    border-width: 1px 1px 0px 1px;
+    position: relative;
+    bottom: -1px;
+    max-width: 100%
+}
+
+article h3 {
+    color: var(--ast-global-color-4);
+    margin: 0 0 5px;
+    font-size: 16px;
+    font-weight: 500
+}
+
+article h4 {
+    color: var(--ast-global-color-5);
+    font-size: 15px;
+    margin-top: 8px;
+    margin-bottom: 8px
+}
+
+article .wp-block-group:nth-of-type(1) {
+    margin: 0 0 9px
+}
+
+article header {
+    display: flex;
+    justify-content: center;
+    border-radius: 15px;
+    background-color: var(--xosupbg);
+    box-shadow: 0px 0px 6px 2px rgb(0 0 0 / 69%);
+    border: solid 1px rgb(235 143 123 / 94%);
+    padding: 2px 3px 5px;
+    border-top: solid 6px var(--ast-global-color-8)
+}
+
+article header h1 {
+    font-size: 17px;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    color: var(--ast-global-color-4);
+    line-height: 1.5;
+    font-weight: 700;
+    direction: ltr
+}
+
+article header h1 span {
+    font-size: 96%;
+    display: block;
+    color: var(--ast-global-color-4-1);
+    font-weight: 600;
+    direction: rtl
+}
+
+.postsfstimg {
+    width: 50% !important;
+    float: right;
+    padding: 0;
+    margin: 0
+}
+
+.tagslist {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    padding: 5px 5px 0
+}
+
+.tagslist a {
+    text-decoration: none;
+    border: 1px solid var(--ast-global-color-4-1);
+    border-radius: 10px;
+    background-color: var(--xosupbg);
+    padding: 1px
+}
+
+.post-info p {
+    color: var(--ast-global-color-7);
+    display: inline-block
+}
+
+.infopp {
+    margin: 2px 0
+}
+
+.date-info {
+    font-size: 91%;
+    line-height: 3px;
+    border-radius: 15px;
+    background-color: var(--xosupbg);
+    box-shadow: 0px 0px 6px 2px rgb(0 0 0 / 69%);
+    border: solid 1px rgb(235 143 123 / 94%);
+    margin: 9px 0;
+    overflow: hidden
+}
+
+.tags-categories-info {
+    border-radius: 15px;
+    background-color: var(--xosupbg);
+    box-shadow: 0px 0px 6px 2px rgb(0 0 0 / 69%);
+    border: solid 1px rgb(235 143 123 / 94%)
+}
+
+.tags-categories-info .post-categories {
+    display: flex;
+    flex-direction: row;
+    overflow: auto;
+    list-style: none;
+    padding: 7px 3px;
+    gap: 5px;
+    margin: 0
+}
+
+.post-categories li {
+    width: 100%;
+    text-wrap: nowrap;
+    border: 1px solid var(--ast-global-color-4-1);
+    border-radius: 10px;
+    background-color: #1c1c1c;
+    transition: 0.5s
+}
+
+.post-categories li:hover {
+    background-color: var(--ast-global-color-4-1)
+}
+
+.post-categories li a {
+    text-decoration: none;
+    display: block;
+    color: var(--ast-global-color-4-1);
+    text-shadow: none;
+    padding: 4px 6px
+}
+
+.post-categories li a:hover {
+    color: #000
+}
+
+article p {
+    margin: 10px 0;
+    padding: 0 5px
+}
+
+figure {
+    margin: 10px 0;
+    display: flex;
+    justify-content: center
+}
+
+figure img {
+    max-width: 100%;
+    max-height: 100%;
+    width: auto !important;
+    height: auto !important;
+    margin: 0 auto;
+    display: block;
+    position: relative;
+    z-index: 1
+}
+
+figure:not(.postsfstimg) img {
+    max-height: 460px;
+    overflow: hidden;
+    border-radius: 20px;
+    box-shadow: 0px 0px 6px 2px rgb(0 0 0 / 69%);
+    border: solid 1px rgb(235 143 123 / 94%)
+}
+
+.postsfstimg img {
+    border-radius: 0 0 0px 10px;
+    border-right: solid 1px rgb(235 143 123 / 94%)
+}
+
+.blu-container {
+    width: max-content;
+    position: relative;
+    margin: 10px auto;
+    max-width: 100%
+}
+
+.blu-container mark {
+    position: absolute;
+    bottom: 0;
+    background-color: rgb(0 0 0 / 63%);
+    padding: 10px;
+    font-weight: 600;
+    font-size: 14px;
+    display: block;
+    margin-bottom: 1.5em;
+    z-index: 1;
+    border: solid rgb(235 143 123 / 94%);
+    border-width: 0 1px 0 1px
+}
+
+figure:first-child mark {
+    border-width: 0 1px 0 0
+}
+
+.blu-image {
+    cursor: pointer;
+    transition: filter 0.3s ease-in-out
+}
+
+.blu-image:hover {
+    filter: brightness(1.2)
+}
+
+.smenu .smenuic {
+    display: block !important
+}
+
+.toc-title {
+    background: none;
+    border: none;
+    color: #fff
+}
+
+.tocc {
+    position: fixed;
+    top: 113px;
+    right: 110%;
+    width: 300px;
+    transition: .6s;
+    opacity: 0;
+    background-color: rgb(0 0 0 / 75%);
+    border-radius: 20px;
+    border-right: var(--ast-global-color-8) solid 6px;
+    line-height: 1.8;
+    z-index: 2
+}
+
+.tocc ul {
+    list-style: none;
+    display: grid;
+    grid-template-columns: 48% 48%;
+    padding: 0;
+    align-items: center;
+    gap: 6px;
+    margin: 14px 25px;
+    justify-content: center
+}
+
+.tocc a {
+    text-decoration: none;
+    color: #000;
+    display: block;
+    background-color: var(--ast-global-color-8);
+    border-radius: 15px;
+    padding: 2px 0;
+    font-weight: 500;
+    transition: 0.3s
+}
+
+.tocc a:hover {
+    background-color: rgb(255 122 152 / 63%)
+}
+
+.toccist {
+    right: 67vw;
+    opacity: 1
+}
+
+.wp-block-uagb-table-of-contents a {
+    color: #fff !important;
+    text-decoration: none !important
+}
+
+.sub-block-group .tabs {
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+    flex-wrap: wrap
+}
+
+.sub-block-group .tabs button {
+    margin: 0
+}
+
+.sub-block-group .tabs .active {
+    border: solid 2px var(--ast-global-color-3)
+}
+
+.synopsis-content {
+    display: none;
+    overflow: hidden;
+    max-height: 0;
+    transition: max-height 0.5s ease-in-out;
+    direction: ltr;
+    margin: 0
+}
+
+.twitter-tweet {
+    margin: auto
+}
+
+.eytg-item svg {
+    position: absolute;
+    z-index: 1;
+    fill: var(--ast-global-color-8)
+}
+
+.eytg-item-first svg {
+    top: 50%;
+    width: 70px;
+    height: 70px;
+    left: 0;
+    transform: translateY(-50%)
+}
+
+.eytg-item-mid svg {
+    top: 56%;
+    width: 50px;
+    height: 50px;
+    left: -6px
+}
+
+.eytg_main_container {
+    display: block;
+    width: 100%;
+    margin: 0
+}
+
+.easy_youtube_gallery {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    position: relative
+}
+
+.easy_youtube_gallery .eytg-item-first {
+    height: 0;
+    padding-bottom: 53.5%;
+    overflow: hidden;
+    width: 100%;
+    max-width: 600px;
+    position: relative;
+    order: 1;
+    display: grid;
+    cursor: pointer;
+    border-radius: 25px 5px
+}
+
+.easy_youtube_gallery .eytg-item-first iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%
+}
+
+.easy_youtube_gallery .eytg-item-first img {
+    position: absolute;
+    left: 0;
+    width: 100%;
+    height: auto;
+    bottom: 50%;
+    transform: translateY(50%);
+    border-radius: 25px 5px
+}
+
+.easy_youtube_gallery .eytg-item:not(.eytg-item-first) {
+    width: 31%;
+    margin: 6px 4px 0px;
+    cursor: pointer;
+    order: 3;
+    position: relative;
+    height: 0;
+    padding-top: 17%;
+    overflow: hidden;
+    border-radius: 15px 5px
+}
+
+.easy_youtube_gallery .eytg-item:not(.eytg-item-first) img {
+    border-radius: 15px 5px;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    bottom: 50%;
+    transform: translateY(50%);
+    height: auto
+}
+
+.video-playing:after {
+    display: none
+}
+
+.restore-button-wrapper {
+    width: 100%;
+    order: 2;
+    margin-top: 4px
+}
+
+.hidden-position {
+    height: 0;
+    overflow: hidden;
+    transition: 0.8s ease-in-out;
+    opacity: 0
+}
+
+.animestaff-container .hidden-position:not(.staff-container .visible) {
+    border: 0 !important
+}
+
+.animestaff-container {
+    overflow: hidden;
+    display: flex;
+    column-count: 2;
+    flex-wrap: wrap;
+    flex-direction: row
+}
+
+.animestaff-container div:last-child,.animestaff-container div:nth-last-child(2) {
+    border-bottom: none;
+    padding-bottom: 10px
+}
+
+.animestaff-container img {
+    width: 150px;
+    max-width: 90%;
+    border-radius: 10px
+}
+
+.animestaff-container div:not(.loader) {
+    border-bottom: 5px solid var(--ast-global-color-8);
+    width: 35%;
+    padding: 0px 10px 6px;
+    margin: 0 auto 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start
+}
+
+.staff-member {
+    animation: fadeandshow 0.8s ease-out forwards;
+    opacity: 0
+}
+
+.staff-member p {
+    margin: auto;
+    padding: 4px
+}
+
+.animechar {
+    break-before: column;
+    margin-top: 120px !important
+}
+
+.anime-character {
+    display: grid;
+    grid-template-areas: "charh4 charja" "charimg charja" "charlaun charlaun";
+    direction: ltr;
+    transition: 0.8s ease-in-out;
+    overflow: hidden;
+    align-items: center;
+    grid-auto-columns: 50% 50%;
+    opacity: 0;
+    animation: fadeandshow 0.8s ease-out forwards
+}
+
+.anime-character:not(:last-child) {
+    border-bottom: 1px dotted rgb(244 67 54 / 54%)
+}
+
+.charhidden {
+    max-height: 0;
+    transform: scaleY(0);
+    border: 0 !important
+}
+
+.hide {
+    opacity: 0;
+    height: 0
+}
+
+.anime-character h4 {
+    grid-area: charh4;
+    text-align: left;
+    margin-left: 26px;
+    max-width: 150px
+}
+
+.main-character-img {
+    grid-area: charimg;
+    width: 190px;
+    height: auto;
+    margin-bottom: 8px;
+    border-radius: 10px
+}
+
+.voice-actor-japanese img {
+    width: 170px;
+    height: auto;
+    border-radius: 10px
+}
+
+.voice-actor-japanese {
+    grid-area: charja;
+    grid-area: charja;
+    display: flex;
+    overflow: auto;
+    flex-direction: row-reverse;
+    gap: 17px
+}
+
+.voice-actors-other-languages {
+    grid-area: charlaun;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 7px;
+    align-items: center;
+    overflow-x: auto;
+    flex-direction: row-reverse
+}
+
+.voice-actors-other-languages img {
+    width: 140px;
+    height: auto;
+    border-radius: 10px
+}
+
+.voice-actors-other-languages p {
+    max-width: 140px;
+    margin: 5px auto
+}
+
+p.voice-actor-language {
+    font-size: 93%
+}
+
+.animext {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    padding-bottom: 7px
+}
+
+.animext svg {
+    width: 22px;
+    height: 22px;
+    fill: var(--ast-global-color-8)
+}
+
+.xtofficial {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px
+}
+
+.malannanidb {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px
+}
+
+.malannanidb a {
+    border: 2px solid var(--ast-global-color-8);
+    padding: 4px;
+    border-radius: 7px;
+    display: flex;
+    justify-content: center;
+    align-items: center
+}
+
+.malannanidb a:hover {
+    border: 2px solid var(--ast-global-color-4-1)
+}
+
+.xtofficial a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: var(--ast-global-color-4-1)
+}
+
+.xtofficial a:hover {
+    color: var(--ast-global-color-8)
+}
+
+.wikipedia {
+    display: flex;
+    justify-content: center;
+    gap: 10px
+}
+
+.wikipedia a {
+    display: flex;
+    text-decoration: none;
+    color: var(--ast-global-color-4-1)
+}
+
+.wikipedia a:hover,.rest a:hover {
+    color: var(--ast-global-color-8)
+}
+
+.wikipedia a svg {
+    color: var(--ast-global-color-8)
+}
+
+.rest {
+    display: flex;
+    justify-content: center;
+    gap: 5px
+}
+
+.rest a {
+    text-decoration: none;
+    color: var(--ast-global-color-4-1);
+    border: 2px solid;
+    padding: 2px 5px;
+    border-radius: 10px
+}
+
+.anireco {
+    width: 100%;
+    background-color: var(--xosupbg);
+    margin: 0 0 10px;
+    border-radius: 15px;
+    box-shadow: 0px 0px 6px 2px rgb(0 0 0 / 69%);
+    border: solid 1px rgb(235 143 123 / 94%);
+    display: flex;
+    flex-direction: row-reverse
+}
+
+.anirecores button {
+    background: none;
+    margin-top: auto
+}
+
+.anirecores button:hover {
+    background: var(--ast-global-color-8)
+}
+
+.anireco img {
+    width: 100%;
+    height: auto;
+    border-radius: 15px 0 0 15px
+}
+
+.anireco .mimi {
+    width: 200px;
+    display: flex
+}
+
+.anirecores {
+    width: 70%;
+    float: right;
+    display: flex;
+    flex-direction: column;
+    padding-top: 5px
+}
+
+.anirecores h3 {
+    direction: ltr
+}
+
+.anirecores h3 span {
+    direction: rtl;
+    font-size: 95%
+}
+
+.anirecores h3 a {
+    text-decoration: none
+}
+
+p.rati {
+    font-size: 94%
+}
+
+@media only screen and (max-width: 1500px) {
+    .toccist {
+        right:72vw
+    }
+}
+
+@media only screen and (max-width: 1300px) {
+    .tocc {
+        right:auto;
+        left: -60%
+    }
+
+    .toccist {
+        right: auto;
+        left: 0
+    }
+}
+
+@media only screen and (max-width: 1100px) {
+    .tocc ul {
+        grid-template-columns:100%
+    }
+
+    .anime-character h4 {
+        margin-left: 47px
+    }
+
+    .animechar {
+        margin: 10px 0 !important
+    }
+
+    .tocc .wp-block-uagb-table-of-contents .uagb-toc__list-wrap {
+        column-count: 1
+    }
+
+    .tocc .wp-block-uagb-table-of-contents .uagb-toc__list {
+        padding: 0;
+        margin: 0;
+        line-height: 1.6
+    }
+
+    .tocc .wp-block-uagb-table-of-contents .uagb-toc__title {
+        font-size: 16px
+    }
+
+    .tocc {
+        top: 180px;
+        width: 184px;
+        max-height: 40%;
+        overflow: auto
+    }
+
+    .toccist {
+        left: 42px
+    }
+
+    .anirecores {
+        width: 65%
+    }
+
+    .anireco img {
+        width: 35%
+    }
+}
+
+@media only screen and (max-width: 1000px) {
+    .ar-synopsish2cont {
+        display:block;
+        clear: both
+    }
+
+    .tags-categories-info {
+        display: inline-flex;
+        flex-direction: column
+    }
+
+    article header {
+        margin: 0 0 9px
+    }
+
+    .tags-categories-info .post-categories {
+        flex-wrap: wrap;
+        justify-content: center
+    }
+
+    .post-categories li a {
+        text-wrap: wrap
+    }
+
+    .post-categories li {
+        width: auto
+    }
+
+    .postsfstimg {
+        width: 60% !important
+    }
+
+    .date-info {
+        font-size: 90%;
+        line-height: 1.5;
+        padding: 5px
+    }
+
+    .post-info p {
+        display: block;
+        margin: 0
+    }
+
+    .main-character-img {
+        width: 165px
+    }
+
+    .voice-actor-japanese img {
+        width: 150px
+    }
+
+    .staff-container img {
+        width: 145px
+    }
+
+    .anireco img {
+        width: 60%;
+        float: none
+    }
+
+    .anirecores {
+        width: 100%;
+        float: none
+    }
+}
+
+@media only screen and (max-width: 700px) {
+    article {
+        column-count:auto
+    }
+
+    article header {
+        margin-left: 65px;
+        margin-top: 40px
+    }
+
+    figure:first-child {
+        float: right;
+        width: 280px
+    }
+
+    article .wp-block-group:not(.tocc) {
+        padding: 0 0 5px
+    }
+
+    article .wp-block-image:not(:first-child) img {
+        max-width: 400px;
+        max-height: 400px
+    }
+
+    .nav-links {
+        max-width: 100%
+    }
+
+    .anireco img {
+        width: 34%;
+        float: left
+    }
+
+    .anirecores {
+        width: 66%;
+        float: right
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .animestaff-container div:not(.loader) {
+        width:40%
+    }
+
+    .animestaff-container img {
+        max-width: 100%
+    }
+
+    article h2 {
+        font-size: 18px
+    }
+
+    .anime-character h4 {
+        margin-left: 0
+    }
+
+    article .wp-block-group:nth-of-type(2):not(.tocc) {
+        padding-left: 0
+    }
+
+    button {
+        font-size: 14px
+    }
+
+    article .wp-block-group:not(.tocc) {
+        box-shadow: none
+    }
+
+    article .wp-block-image:not(:first-child) img {
+        width: auto !important;
+        max-width: 100%;
+        box-shadow: none;
+        border: 0;
+        border-radius: 0
+    }
+
+    .anireco img {
+        width: 50%;
+        float: none
+    }
+
+    .anirecores {
+        width: 100%;
+        float: none
+    }
+
+    .main-character-img {
+        width: 140px;
+        margin: auto;
+        max-width: 100%;
+        height: auto
+    }
+
+    .voice-actor-japanese img {
+        width: 130px
+    }
+
+    .voice-actors-other-languages img {
+        width: 95px;
+        height: auto
+    }
+
+    .anime-character h4 {
+        text-align: center
+    }
+
+    .anime-character {
+        align-items: end;
+        gap: 5px
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    .postsfstimg {
+        width:70% !important
+    }
+}
+
+@media only screen and (max-width: 360px) {
+    .anireco img {
+        width:68%
+    }
+
+    .easy_youtube_gallery .eytg-item:not(.eytg-item-first) {
+        width: 46%;
+        padding-top: 24%
+    }
+}
+
+@media only screen and (max-width: 300px) {
+    .latest-posts .latest-post {
+        width:87%
+    }
+
+    .animestaff-container div:not(.loader) {
+        width: 46%
+    }
+}
+
+@media only screen and (max-width: 280px) {
+    .nav-links {
+        flex-direction:column;
+        align-items: center
+    }
+
+    .nav-next {
+        min-width: 50%;
+        margin-right: auto
+    }
+
+    .nav-previous {
+        min-width: 50%;
+        margin-left: auto
+    }
+
+    .main-character-img {
+        max-width: 54vw
+    }
+
+    .anireco img {
+        width: 100%
+    }
+
+    .tags-categories-info {
+        max-height: 150px
+    }
+}
