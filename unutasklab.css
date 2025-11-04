@@ -340,16 +340,6 @@
          0%, 100% { opacity: 1; }
          50% { opacity: 0.5; }
          }
-     /* Add opacityPulse animation for visit button effect */
-        @keyframes opacityPulse {
-        0% { opacity: 1; }
-        50% { opacity: 0.4; }
-        100% { opacity: 1; }
-         }
-    /* Style for task row with active opacity pulse effect */
-       .task-row.opacity-pulse-active {
-       animation: opacityPulse 2s ease-out infinite;
-         }
          /* Added scrollable task overview with hidden scrollbar */
          .task-overview-container {
          max-height: 800px;
@@ -1197,3 +1187,4 @@
          }
 
          }
+
