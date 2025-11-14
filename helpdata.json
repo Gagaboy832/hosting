@@ -1,17 +1,23 @@
 {
   "Abdusamad": {
     "name": "Abdusamad",
-    "lastPrimaryHelp": null,
+    "lastPrimaryHelp": 1763131343481,
     "lastSecondaryHelp": null,
     "groupLockedUntil": null,
-    "totalHelped": 0,
-    "clickHistory": []
+    "totalHelped": 1,
+    "clickHistory": [
+      {
+        "type": "primary",
+        "timestamp": 1763131343481,
+        "date": "2025-11-14T14:42:23.481Z"
+      }
+    ]
   },
   "Taneem": {
     "name": "Taneem",
     "lastPrimaryHelp": null,
     "lastSecondaryHelp": null,
-    "groupLockedUntil": null,
+    "groupLockedUntil": 1763138543482,
     "totalHelped": 0,
     "clickHistory": []
   },
@@ -19,7 +25,7 @@
     "name": "Zahra",
     "lastPrimaryHelp": null,
     "lastSecondaryHelp": null,
-    "groupLockedUntil": null,
+    "groupLockedUntil": 1763138543482,
     "totalHelped": 0,
     "clickHistory": []
   },
@@ -27,7 +33,7 @@
     "name": "Siham",
     "lastPrimaryHelp": null,
     "lastSecondaryHelp": null,
-    "groupLockedUntil": null,
+    "groupLockedUntil": 1763138543482,
     "totalHelped": 0,
     "clickHistory": []
   },
@@ -35,7 +41,7 @@
     "name": "Ahlam",
     "lastPrimaryHelp": null,
     "lastSecondaryHelp": null,
-    "groupLockedUntil": null,
+    "groupLockedUntil": 1763138543482,
     "totalHelped": 0,
     "clickHistory": []
   },
@@ -43,7 +49,7 @@
     "name": "Mohamed",
     "lastPrimaryHelp": null,
     "lastSecondaryHelp": null,
-    "groupLockedUntil": 1763136680212,
+    "groupLockedUntil": 1763138543482,
     "totalHelped": 0,
     "clickHistory": []
   }
