@@ -1,44 +1,44 @@
 {
   "Abdusamad": {
     "name": "Abdusamad",
-    "lastPrimaryHelp": 1763124244067,
+    "lastPrimaryHelp": null,
     "lastSecondaryHelp": null,
-    "groupLockedUntil": null,
-    "totalHelped": 1
+    "groupLockedUntil": 1763131504748,
+    "totalHelped": 0
   },
   "Taneem": {
     "name": "Taneem",
-    "lastPrimaryHelp": null,
+    "lastPrimaryHelp": 1763124304748,
     "lastSecondaryHelp": null,
-    "groupLockedUntil": 1763131444067,
-    "totalHelped": 0
+    "groupLockedUntil": null,
+    "totalHelped": 1
   },
   "Zahra": {
     "name": "Zahra",
     "lastPrimaryHelp": null,
     "lastSecondaryHelp": null,
-    "groupLockedUntil": 1763131444067,
+    "groupLockedUntil": 1763131504748,
     "totalHelped": 0
   },
   "Siham": {
     "name": "Siham",
     "lastPrimaryHelp": null,
     "lastSecondaryHelp": null,
-    "groupLockedUntil": 1763131444067,
+    "groupLockedUntil": 1763131504748,
     "totalHelped": 0
   },
   "Ahlam": {
     "name": "Ahlam",
     "lastPrimaryHelp": null,
     "lastSecondaryHelp": null,
-    "groupLockedUntil": 1763131444067,
+    "groupLockedUntil": 1763131504748,
     "totalHelped": 0
   },
   "Mohamed": {
     "name": "Mohamed",
     "lastPrimaryHelp": null,
     "lastSecondaryHelp": null,
-    "groupLockedUntil": 1763131444067,
+    "groupLockedUntil": 1763131504748,
     "totalHelped": 0
   }
 }
