@@ -170,16 +170,26 @@
       "dateAdded": "2026-01-22T00:21:48.837Z",
       "isCompleted": false,
       "completedDate": null
+    },
+    {
+      "id": "2617372",
+      "taskLink": "https://unu.im/tasks/share/igh4ez0k-2617372",
+      "taskType": "Telegram",
+      "paymentRUB": 1.28,
+      "paymentUSD": 0.01536,
+      "dateAdded": "2026-01-22T00:22:30.101Z",
+      "isCompleted": false,
+      "completedDate": null
     }
   ],
   "metadata": {
-    "lastUpdated": "2026-01-22T00:21:48.837Z",
-    "totalTasks": 17,
+    "lastUpdated": "2026-01-22T00:22:30.101Z",
+    "totalTasks": 18,
     "completedTasks": 1,
-    "totalRevenueRUB": 23.68,
-    "totalRevenueUSD": 0.28416,
+    "totalRevenueRUB": 24.96,
+    "totalRevenueUSD": 0.29952,
     "exchangeRate": 0.012,
-    "exchangeRateLastUpdated": "2026-01-22T00:21:48.837Z"
+    "exchangeRateLastUpdated": "2026-01-22T00:22:30.101Z"
   },
   "taskTypes": [
     "VKontakte",
