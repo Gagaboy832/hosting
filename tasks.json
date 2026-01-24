@@ -200,16 +200,26 @@
       "dateAdded": "2026-01-24T15:37:43.150Z",
       "isCompleted": false,
       "completedDate": null
+    },
+    {
+      "id": "5853923",
+      "taskLink": "https://unu.im/tasks/share/dgpc99ga-5853923",
+      "taskType": "VKontakte",
+      "paymentRUB": 1.6,
+      "paymentUSD": 0.019200000000000002,
+      "dateAdded": "2026-01-24T15:39:09.182Z",
+      "isCompleted": false,
+      "completedDate": null
     }
   ],
   "metadata": {
-    "lastUpdated": "2026-01-24T15:37:43.150Z",
-    "totalTasks": 20,
+    "lastUpdated": "2026-01-24T15:39:09.183Z",
+    "totalTasks": 21,
     "completedTasks": 1,
-    "totalRevenueRUB": 67.68000000000002,
-    "totalRevenueUSD": 0.8121600000000004,
+    "totalRevenueRUB": 69.28000000000002,
+    "totalRevenueUSD": 0.8313600000000004,
     "exchangeRate": 0.012,
-    "exchangeRateLastUpdated": "2026-01-24T15:37:43.150Z"
+    "exchangeRateLastUpdated": "2026-01-24T15:39:09.183Z"
   },
   "taskTypes": [
     "VKontakte",
