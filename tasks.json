@@ -250,16 +250,26 @@
       "dateAdded": "2026-01-24T15:40:32.071Z",
       "isCompleted": false,
       "completedDate": null
+    },
+    {
+      "id": "5933790",
+      "taskLink": "https://unu.im/tasks/share/tody1opj-5933790",
+      "taskType": "VKontakte",
+      "paymentRUB": 1.28,
+      "paymentUSD": 0.01536,
+      "dateAdded": "2026-01-24T15:41:18.599Z",
+      "isCompleted": false,
+      "completedDate": null
     }
   ],
   "metadata": {
-    "lastUpdated": "2026-01-24T15:40:32.071Z",
-    "totalTasks": 25,
+    "lastUpdated": "2026-01-24T15:41:18.599Z",
+    "totalTasks": 26,
     "completedTasks": 1,
-    "totalRevenueRUB": 75.52000000000001,
-    "totalRevenueUSD": 0.9062400000000005,
+    "totalRevenueRUB": 76.80000000000001,
+    "totalRevenueUSD": 0.9216000000000005,
     "exchangeRate": 0.012,
-    "exchangeRateLastUpdated": "2026-01-24T15:40:32.071Z"
+    "exchangeRateLastUpdated": "2026-01-24T15:41:18.599Z"
   },
   "taskTypes": [
     "VKontakte",
