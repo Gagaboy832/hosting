@@ -1,101 +1,24 @@
 {
   "tasks": [
     {
-      "id": "5421872",
-      "taskLink": "https://unu.im/tasks/share/9ivi4vz5-5421872",
+      "id": "6272175",
+      "taskLink": "https://unu.im/tasks/share/tcpg6mya-6272175",
       "taskType": "Telegram",
-      "paymentRUB": 1.28,
-      "paymentUSD": 0.01536,
-      "dateAdded": "2026-01-21T23:40:32.600Z",
-      "isCompleted": true,
-      "completedDate": "2026-01-21T23:45:43.318Z",
-      "id2": "#156662991"
-    },
-    {
-      "id": "5394106",
-      "taskLink": "https://unu.im/tasks/share/97xft76o-5394106",
-      "taskType": "Telegram",
-      "paymentRUB": 3.2,
-      "paymentUSD": 0.038400000000000004,
-      "dateAdded": "2026-01-24T14:42:47.380Z",
-      "isCompleted": true,
-      "completedDate": "2026-01-24T16:22:24.945Z",
-      "id2": "#157218906"
-    },
-    {
-      "id": "5754093",
-      "taskLink": "https://unu.im/tasks/share/x81r1bcy-5754093",
-      "taskType": "Telegram",
-      "paymentRUB": 1.28,
-      "paymentUSD": 0.01536,
-      "dateAdded": "2026-01-24T14:46:22.276Z",
-      "isCompleted": true,
-      "completedDate": "2026-01-24T16:30:00.217Z",
-      "id2": "#157223449"
-    },
-    {
-      "id": "5640286",
-      "taskLink": "https://unu.im/tasks/share/p8w5ovrn-5640286",
-      "taskType": "Telegram",
-      "paymentRUB": 4.8,
-      "paymentUSD": 0.0576,
-      "dateAdded": "2026-01-24T15:03:54.740Z",
-      "isCompleted": true,
-      "completedDate": "2026-01-24T16:32:42.329Z",
-      "id2": "#157223987"
-    },
-    {
-      "id": "5989626",
-      "taskLink": "https://unu.im/tasks/share/h67tt0av-5989626",
-      "taskType": "VKontakte",
-      "paymentRUB": 1.28,
-      "paymentUSD": 0.01536,
-      "dateAdded": "2026-02-03T11:28:06.685Z",
-      "isCompleted": true,
-      "completedDate": "2026-02-03T11:32:18.593Z",
-      "id2": "159091911"
-    },
-    {
-      "id": "5950295",
-      "taskLink": "https://unu.im/tasks/share/xenpklnu-5950295",
-      "taskType": "VKontakte",
-      "paymentRUB": 1.2,
-      "paymentUSD": 0.0144,
-      "dateAdded": "2026-02-03T11:41:12.921Z",
-      "isCompleted": true,
-      "completedDate": "2026-02-03T12:04:59.272Z",
-      "id2": "5950295"
-    },
-    {
-      "id": "5925864",
-      "taskLink": "https://unu.im/tasks/share/cdq24i8c-5925864",
-      "taskType": "Telegram",
-      "paymentRUB": 1.28,
-      "paymentUSD": 0.01536,
-      "dateAdded": "2026-02-03T11:43:11.850Z",
-      "isCompleted": true,
-      "completedDate": "2026-02-03T12:05:10.964Z",
-      "id2": "5925864"
-    },
-    {
-      "id": "5812182",
-      "taskLink": "https://unu.im/tasks/share/u7xwyucc-5812182",
-      "taskType": "Other",
-      "paymentRUB": 24,
-      "paymentUSD": 0.28800000000000003,
-      "dateAdded": "2026-03-27T17:27:17.698Z",
+      "paymentRUB": 5,
+      "paymentUSD": 0.06,
+      "dateAdded": "2026-04-04T13:29:10.977Z",
       "isCompleted": false,
       "completedDate": null
     }
   ],
   "metadata": {
-    "lastUpdated": "2026-03-27T17:27:17.707Z",
-    "totalTasks": 8,
-    "completedTasks": 7,
-    "totalRevenueRUB": 38.32,
-    "totalRevenueUSD": 0.45984,
+    "lastUpdated": "2026-04-04T13:29:10.983Z",
+    "totalTasks": 1,
+    "completedTasks": 0,
+    "totalRevenueRUB": 5,
+    "totalRevenueUSD": 0.06,
     "exchangeRate": 0.012,
-    "exchangeRateLastUpdated": "2026-03-27T17:27:17.707Z"
+    "exchangeRateLastUpdated": "2026-04-04T13:29:10.984Z"
   },
   "taskTypes": [
     "VKontakte",
