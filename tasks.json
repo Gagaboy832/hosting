@@ -19,16 +19,26 @@
       "dateAdded": "2026-04-06T14:50:27.214Z",
       "isCompleted": false,
       "completedDate": null
+    },
+    {
+      "id": "6347952",
+      "taskLink": "https://unu.im/tasks/share/zartannb-6347952",
+      "taskType": "VKontakte",
+      "paymentRUB": 2,
+      "paymentUSD": 0.024,
+      "dateAdded": "2026-04-06T14:51:25.517Z",
+      "isCompleted": false,
+      "completedDate": null
     }
   ],
   "metadata": {
-    "lastUpdated": "2026-04-06T14:50:27.214Z",
-    "totalTasks": 2,
+    "lastUpdated": "2026-04-06T14:51:25.518Z",
+    "totalTasks": 3,
     "completedTasks": 0,
-    "totalRevenueRUB": 2.64,
-    "totalRevenueUSD": 0.03168,
+    "totalRevenueRUB": 4.640000000000001,
+    "totalRevenueUSD": 0.05568,
     "exchangeRate": 0.012,
-    "exchangeRateLastUpdated": "2026-04-06T14:50:27.214Z"
+    "exchangeRateLastUpdated": "2026-04-06T14:51:25.518Z"
   },
   "taskTypes": [
     "VKontakte",
