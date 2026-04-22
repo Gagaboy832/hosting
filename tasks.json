@@ -62,16 +62,26 @@
       "dateAdded": "2026-04-22T12:43:45.460Z",
       "isCompleted": false,
       "completedDate": null
+    },
+    {
+      "id": "6493564",
+      "taskLink": "https://unu.im/tasks/share/qtpftnhk-6493564",
+      "taskType": "VKontakte",
+      "paymentRUB": 1,
+      "paymentUSD": 0.012,
+      "dateAdded": "2026-04-22T12:45:10.892Z",
+      "isCompleted": false,
+      "completedDate": null
     }
   ],
   "metadata": {
-    "lastUpdated": "2026-04-22T12:43:45.460Z",
-    "totalTasks": 6,
+    "lastUpdated": "2026-04-22T12:45:10.892Z",
+    "totalTasks": 7,
     "completedTasks": 3,
-    "totalRevenueRUB": 7.640000000000001,
-    "totalRevenueUSD": 0.09168,
+    "totalRevenueRUB": 8.64,
+    "totalRevenueUSD": 0.10368,
     "exchangeRate": 0.012,
-    "exchangeRateLastUpdated": "2026-04-22T12:43:45.460Z"
+    "exchangeRateLastUpdated": "2026-04-22T12:45:10.892Z"
   },
   "taskTypes": [
     "VKontakte",
